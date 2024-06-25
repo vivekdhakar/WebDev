@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+    </style>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: gray;
+            padding: 50px 450px 20px 450px;
+        }
+
+        .card {
+            background-color: white;
+            width: 300px;
+            height: 470px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 10px;
+        }
+
+        .caption {
+            padding: 0px 25px 0px;
+        }
+
+        .caption span {
+            border: 1px solid black;
+            border-radius: 8px;
+            padding: 2px 2px 2px 2px;
+            font-size: 8px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal
+        }
+
+        .content {
+            padding: 2px 0px 0px 7px;
+            margin: 5px;
+            font-family: "Baloo 2", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 350;
+            font-style: normal;
+        }
+
+        .content p {
+            font-size: 10px;
+            margin: px;
+            color: rgb(126, 110, 110);
+        }
+
+        .button {
+            text-align: center;
+            padding: 5px 150px 0px 125px;
+        }
+
+        .button button {
+            border: none;
+            border-radius: 20px;
+            background-color: rgb(205, 220, 241);
+            color: blue;
+            font-size: 10px;
+            padding: 5px 5px 5px 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width=290px; src="cricket.jpg"></image>
+        </div>
+        <div class="caption">
+            <span>Hitman</span>
+            <span>WC2023</span>
+        </div>
+        <div class="content">
+            <h3>Rohit Sharma</h3>
+            <p>Rohit Gurunath Sharma (born 30 April 1987) is an Indian international cricketer who currently captains
+                the India national cricket team across all formats. He is a right-handed batsman. Considered one of the
+                best batsmen of his generation and one of the greatest opening batters of all time,[4] Sharma is known
+                for his timing, elegance, six-hitting abilities and leadership skills. Sharma holds several batting
+                records which famously include most sixes in international cricket,[a] most double centuries in ODI
+                cricket (3), most centuries at Cricket World Cups (7) and joint most hundreds in Twenty20 Internationals
+                (5). Rohit Sharma is the first player to score 5 T20I centuries.[6] He plays for Mumbai Indians in IPL
+                and for Mumbai in domestic cricket.</p>
+        </div>
+        <din class="button">
+            <button>Read more</button>
+        </din>
+    </div>
+</body>
+
+</html>
