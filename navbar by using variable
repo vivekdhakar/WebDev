@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolor Navbar</title>
+</head>
+<style>
+    :root{
+        --color:rgb(16, 236, 130);
+        --seccolor:rgb(166, 248, 191);
+        --textcolor:white;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    ul{
+        background-color: var(--color); 
+        color:var(--textcolor);
+        list-style: none;
+        display: flex;
+    }
+    ul li{
+        padding: 4px 30px;
+    }
+    ul li a{
+        text-decoration: none;
+        color: var(--textcolor);
+    }
+  body{
+    background-color: var(--seccolor);
+  }
+    
+
+</style>
+
+<body>
+    <div>
+     <header>
+        <nav>
+            <ul>
+        <li><a href="/">Home<a></li>
+        <li><a href="/">About<a></li>
+        <li><a href="/">Contact<a></li>
+        <li><a href="/">Services<a></li>
+    </ul>
+        </nav>
+    </header>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quas praesentium fugiat ipsam itaque, quisquam nihil magni rerum doloribus iure modi harum tempora!</p>
+    </div>
+</body>
+</html>
