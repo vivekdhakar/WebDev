@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internships</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    body {
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        background-color: rgb(223, 240, 255);
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 20px;
+        padding: 0;
+    }
+
+
+    .box {
+        height: 230px;
+        width: 300px;
+        border: none;
+        margin: 50px;
+        justify-content: center;
+        text-align: center;
+
+        box-shadow: 5px 15px 5px gray;
+        background-color: rgb(169, 214, 253);
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .box1 {
+        padding: 10px;
+        line-height: 23px;
+        top: -30px;
+        left: 38px;
+        font-size: 18px;
+    }
+
+    .box2 {
+        padding: 10px;
+        line-height: 23px;
+        font-size: 18px;
+        top: -30px;
+        right: 10px;
+    }
+
+    .box3 {
+        padding: 10px;
+        line-height: 23px;
+        font-size: 18px;
+        top: -75px;
+        left: 38px;
+    }
+
+    .box4 {
+        padding: 10px;
+        line-height: 23px;
+        font-size: 18px;
+        top: -75px;
+        right: 10px;
+    }
+
+    ul {
+        font-size: 13px;
+        text-align: start;
+        list-style: inside;
+    }
+
+    .button {
+        background-color: rgb(62, 100, 250);
+        color: white;
+        border-radius: 5px;
+        padding: 7px 7px 7px 7px;
+        font-size: 9px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: rgb(250, 7, 7);
+    }
+</style>
+
+<body>
+    <div>
+        <h1>Internships</h1>
+    </div>
+    <div class="container">
+        <div class="box box1">
+            <h3>Web Development Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Locaton:Virtual</li>
+                <li>Stipend:-/</li>
+                <li>Start Date:28/06/2024</li>
+            </ul>
+            <button class="button">
+                <a href="https://www.google.com/">View Details</a>
+            </button>
+        </div>
+        <div class="box box2">
+            <h3>App Development Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Locaton:Virtual</li>
+                <li>Stipend:-/</li>
+                <li>Start Date:28/06/2024</li>
+            </ul>
+            <button class="button">
+                <a href="https://www.google.com/">View Details</a>
+            </button>
+        </div>
+        <div class="box box3">
+            <h3>Python Programming Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Locaton:Virtual</li>
+                <li>Stipend:-/</li>
+                <li>Start Date:28/06/2024</li>
+            </ul>
+            <button class="button">
+                <a href="https://www.google.com/">View Details</a>
+            </button>
+        </div>
+        <div class="box box4">
+            <h3>Java Programming Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Locaton:Virtual</li>
+                <li>Stipend:-/</li>
+                <li>Start Date:28/06/2024</li>
+            </ul>
+            <button class="button">
+                <a href="https://www.google.com/">View Details</a>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
