@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid </title>
+</head>
+<style>
+    .container {
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 30px;
+        padding: 10px;
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+
+    .box {
+        width: 300px;
+        height: 150px;
+        background-color: #f4f3f393;
+        font-family: 'Segoe UI';
+        font-weight: 650;
+        line-height: 3;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+
+    .button a {
+        background-color: rgb(97, 190, 97);
+        font-weight: 700;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 6px;
+        line-height: 10;
+    }
+    @media screen  and (max-width: 600px){
+    .container{
+      grid-template-columns: 2fr;    
+    }
+}
+@media screen  and (max-width: 600px){
+    .container{
+      grid-template-columns: 1fr;    
+    }}
+</style>
+
+<body>
+    <div class="container">
+        <div class="box" ">English
+            <div class="button">
+                <a href="ue_english_64.exe">Downlaod 64-bit</a>
+            </div>
+        </div>
+        <div class="box ">Deutsch
+            <div class="button">
+                <a href="ue_english_64.exe">Downlaod 64-bit</a>
+            </div>
+        </div>
+        <div class="box">B
+            <div class="button">
+                <a href="ue_english_64.exe">Downlaod 64-bit</a>
+            </div>
+        </div>
+        <div class="box">C
+            <div class="button">
+                <a href="ue_english_64.exe">Downlaod 64-bit</a>
+            </div>
+        </div>
+        <div class="box">D
+            <div class="button">
+                <a href="ue_english_64.exe">Downlaod 64-bit</a>
+            </div>
+        </div>
+        <div class="box">E
+            <div class="button">
+                <a href="ue_english_64.exe">Downlaod 64-bit</a>
+            </div>
+        </div>
+        <div class="box">F
+            <div class="button">
+                <a href="ue_english_64.exe">Downlaod 64-bit</a>
+            </div>
+        </div>
+        <div class="box">G
+            <div class="button">
+                <a href="ue_english_64.exe">Downlaod 64-bit</a>
+            </div>
+        </div>
+        <div class="box">H
+            <div class="button">
+                <a href="ue_english_64.exe">Downlaod 64-bit</a>
+            </div>
+        </div>
+        <div class="box">I
+            <div class="button">
+                <a href="ue_english_64.exe">Downlaod 64-bit</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
