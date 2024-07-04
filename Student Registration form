@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<style>
+    body{
+        background-image: url(jocke-wulcan-3jnMoTB2mD8-unsplash.jpg);
+        background-size: cover;
+      position: absolute;
+      top: 20px;
+      left: 475px;
+
+
+    }
+    .container{
+        width: 350px;
+        height: 500px;
+        background-color: rgba(22, 21, 21, 0.349);
+        padding-left: 38px;
+        padding-top: 15px;   
+        border-radius: 5px;
+    }
+    .type{
+        margin: 3px;
+        border-radius: 5px;
+        border: none;
+        width: 300px;
+        height: 20px;
+    }
+    .container label{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .dob{
+        width: 200px;
+        height: 20px;
+    }
+    .circle{
+        width: 25px;
+
+    }
+    .btn{
+        position: absolute;
+        
+        height: 25px;
+        width: 300px;
+        cursor: pointer;
+        background-color: rgb(125, 183, 234);
+        color: white;
+        border-radius: 5px;
+        border: 0cap;
+        margin-left:11px;
+    }
+</style>
+<body>
+    <form id="Registration Form" method="post">
+<div class="container">
+    <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Student Registration Form</h2>
+<div>
+    <label>Name</label>
+    <br>
+    <input type="text" class="type" name="name" placeholder="First Name">
+</div>
+<div>
+    <input type="text" class="type" name="name" placeholder="Last Name">
+</div>
+<div>
+    <label>Email</label>
+    <br>
+    <input type="text" class="type" name="email" placeholder="Email Address">
+    <br>
+</div>
+<div>
+    <label>Password</label>
+    <br>
+    <input type="text" class="type" name="password" placeholder="New Password">
+    <br>
+    <input type="text" class="type" name="password" placeholder="Confirm Password">
+</div>
+<div>
+    <label>Date of Birth</label>
+    
+    <input type="date"  name="dob" class="dob">
+    <br>
+</div>
+<div>
+    <label>Gender</label>
+    <input class="circle" type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input class="circle" type="radio" name="gender" id="female" value="female">
+    <label for="Female">Female</label>
+    <input class="circle" type="radio" name="gender" id="other" value="other">
+    <label for="other">Other</label>
+</div>
+<br>
+<div>
+    <input class="circle" type="checkbox" name="terms and conditions" id="terms and conditions">
+    <label for="terms and conditions">Terms and Conditions</label>
+</div>
+<br>
+<div>
+    <button type="submit" class="btn">submit
+        
+    </button>
+</div>
+   
+</div>
+</form>
+
+</body>
+
+</html>
